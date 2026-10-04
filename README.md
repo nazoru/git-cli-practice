@@ -46,3 +46,21 @@ git push -u origin main
 - `git pull` - fetches remote changes and integrates them into the current branch.
 - `git push` - uploads local commits to the remote repository.
 - `git push-u origin main` - pushes `main`and establishes `origin/main` as its upstream branch. 
+
+### History and Recovery
+
+```bash
+git rebase <branch-name>
+git rebase --continue
+git rebase --abort
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+git revert <commit>
+```
+
+- `git rebase <branch-name>` - reapplies commits on top of another branch.
+- `git rebase --continue` - continues a rebasae afterresolving a conflict.
+- `git rebase --abort` - cancels a rebase and returns to the previous state.
+- `git reset --soft HEAD~1` - moves the branchback one commit while keeping changes staged.
+- `git reset --hard HEAD~1` - moves the branch back one commit and discards working-tree changes.
+- `git revert <commit>` - creates a new commit that reverses an earlier commit. 
