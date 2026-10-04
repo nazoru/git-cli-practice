@@ -7,3 +7,14 @@ This project demonstates common Git commands, branching, commits, rebasing, and 
 git init
 git clone https://github.com/nazoru/git-cli-practice.git
 git remote -v
+
+### Staging and Commits
+
+```bash
+git status
+git add <file>
+git add .
+git commit -m "Commit message"
+git log --oneline
+
+```text
