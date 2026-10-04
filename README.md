@@ -29,3 +29,20 @@ git switch -c <branch-name>
 git merge <branch-name>
 
 ```text
+
+### Remote Repositories
+```bash
+git remote -v
+git remote add origin <repository-url>
+git fetch origin
+git pull
+git push
+git push -u origin main
+```
+
+- `gitremote -v` - shows the remote repositories connected to the project.
+- `git remote add origin` - connects the local repository to a remote repository.
+- `git fetch origin`- downloads information about changes from the remote repository without changing your working files.
+- `git pull` - fetches remote changes and integrates them into the current branch.
+- `git push` - uploads local commits to the remote repository.
+- `git push-u origin main` - pushes `main`and establishes `origin/main` as its upstream branch. 
