@@ -1,4 +1,4 @@
-# git-cli-practic
+# git-cli-practice
 A small repository for practicing Git and GitHub workflows.
 
 This project demonstates common Git commands, branching, commits, rebasing, and pull requests.
