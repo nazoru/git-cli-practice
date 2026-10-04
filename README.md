@@ -18,3 +18,14 @@ git commit -m "Commit message"
 git log --oneline
 
 ```text
+
+### Branching
+
+```bash
+git branch
+git branch <branch-name>
+git switch <branch-name>
+git switch -c <branch-name>
+git merge <branch-name>
+
+```text
