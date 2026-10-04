@@ -64,3 +64,17 @@ git revert <commit>
 - `git reset --soft HEAD~1` - moves the branchback one commit while keeping changes staged.
 - `git reset --hard HEAD~1` - moves the branch back one commit and discards working-tree changes.
 - `git revert <commit>` - creates a new commit that reverses an earlier commit. 
+
+### Pull Request Workflow
+
+```text
+1. Create a feature branch.
+2. Make changes on the feature branch.
+3. Commit the changes.
+4. Push the feature branch to GitHub.
+5. Open a Pull Request on GitHub.
+6. Review the changes.
+7. Merge the Pull Request into main.
+```
+
+A Pull Request allows changes from one branch to be reviewed before they are merged into another branch.
